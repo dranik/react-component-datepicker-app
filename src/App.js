@@ -50,7 +50,6 @@ class App extends Component {
         initialStartDate = {moment().subtract(6, 'day')}
         initialEndDate = {moment().add(1, 'day')}
         onDatesChanged = {(start, end) => console.log(start, end)}
-        autoFocus
       />
     );
   }
