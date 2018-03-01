@@ -1,0 +1,113 @@
+
+
+
+.CalendarDay {
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 14px;
+  text-align: center
+}
+.CalendarDay:active {
+  outline: 0
+}
+.CalendarDay__defaultCursor {
+  cursor: default
+}
+.CalendarDay__default {
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  color: #565a5c;
+  background: #fff
+}
+.CalendarDay__default:hover {
+  background: rgba(0, 0, 0, 0.12);
+  border: 1px double rgba(0, 0, 0, 0.12);
+  color: inherit
+}
+.CalendarDay__hovered_offset {
+  background: #f4f5f5;
+  border: 1px double rgba(0, 0, 0, 0.12);
+  color: inherit
+}
+.CalendarDay__outside {
+  border: 0;
+  background: #fff;
+  color: #565a5c
+}
+.CalendarDay__blocked_minimum_nights {
+  background: #fff;
+  border: 1px solid #eceeee;
+  color: rgba(0, 0, 0, 0.12)
+}
+.CalendarDay__blocked_minimum_nights:active,
+.CalendarDay__blocked_minimum_nights:hover {
+  background: #fff;
+  color: rgba(0, 0, 0, 0.12)
+}
+.CalendarDay__highlighted_calendar {
+  background: #ffe8bc;
+  color: #565a5c
+}
+.CalendarDay__highlighted_calendar:active,
+.CalendarDay__highlighted_calendar:hover {
+  background: #ffce71;
+  color: #565a5c
+}
+.CalendarDay__selected_span {
+  background: #1791D2;
+  border: 1px solid #1791D2;
+  color: #fff
+}
+.CalendarDay__selected_span:active,
+.CalendarDay__selected_span:hover {
+  background: #1791D2;
+  border: 1px solid #1791D2;
+  color: #fff
+}
+.CalendarDay__last_in_range {
+  border-right: #475c77
+}
+.CalendarDay__selected,
+.CalendarDay__selected:active,
+.CalendarDay__selected:hover {
+  background: #475c77;
+  border: 1px solid #475c77;
+  color: #fff
+}
+.CalendarDay__hovered_span,
+.CalendarDay__hovered_span:hover {
+  background: rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  color: #007a87
+}
+.CalendarDay__hovered_span:active {
+  background: rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  color: #007a87
+}
+.CalendarDay__blocked_calendar,
+.CalendarDay__blocked_calendar:active,
+.CalendarDay__blocked_calendar:hover {
+  background: rgba(0, 0, 0, 0.12);
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  color: #82888a
+}
+.CalendarDay__blocked_out_of_range,
+.CalendarDay__blocked_out_of_range:active,
+.CalendarDay__blocked_out_of_range:hover {
+  background: #fff;
+  border: 1px solid rgba(0, 0, 0, 0.12);
+  color: rgba(0, 0, 0, 0.12)
+}
+
+
+.PresetDateRangePicker_button {
+    border: 2px solid #475c77;
+    color: #475c77;
+    margin-bottom: 7px;
+}
+
+.PresetDateRangePicker_button__selected {
+    color: #fff;
+    background: #475c77;;
+  }
